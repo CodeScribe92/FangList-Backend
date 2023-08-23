@@ -11,6 +11,8 @@ flask-cors = "*"
 marshmallow-sqlalchemy = "*"
 flask-marshmallow = "*"
 flask-sqlalchemy = "*"
+gunicorn = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.11.1"
