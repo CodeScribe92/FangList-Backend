@@ -6,6 +6,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 # basedir = os.path.abspath(os.path.dirname(__file__))
+
 # app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///" + os.path.join(basedir, 'app.sqlite')
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://mdymceqoxxnvgz:a8445681fb11a1646b2f29079c6c3b12ae2e7a2cfb1b5db5e722661ecadfaee8@ec2-3-233-77-220.compute-1.amazonaws.com:5432/ddsnlk28hptitr"
 
